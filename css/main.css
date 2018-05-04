@@ -38,7 +38,7 @@
 }
 
 body, html {
-	height: 50%;
+	height: 70%;
 	font-family: Poppins-Regular, sans-serif;
 }
 
@@ -160,7 +160,7 @@ iframe {
 
 .container-login100 {
   width: 100%;  
-  max-height: 130vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -169,15 +169,15 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  background: #fff;
-  margin-top: 100px;  
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+
 }
 
 .wrap-login100 {
-  width: 400px;
+  width: 380px;
   background: lightgrey;
   border-radius: 15px;
+  margin-top: -280px;
 
 
 }
